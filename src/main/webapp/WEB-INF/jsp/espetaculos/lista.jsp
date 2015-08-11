@@ -24,6 +24,9 @@
 				<option value="ORQUESTRA">Orquestra</option>
 			</select>
 			
+			<label for="local">${espetaculo.tipo}:</label>
+			
+			
 			<label for="local">Local:</label>
 			<select id="local" name="espetaculo.estabelecimento.id">
 				<c:forEach items="${estabelecimentos}" var="estabelecimento">
